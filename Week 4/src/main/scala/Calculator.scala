@@ -31,7 +31,7 @@ class Calculator {
       }
       else {
         println("Your input is not correct!")
-        return 0
+        System.exit(0)
       }
     }
 
@@ -117,7 +117,7 @@ class Calculator {
       }
       else {
         System.out.println("You can not divide to 0!")
-        return 0
+        System.exit(0)
       }
     }
 
