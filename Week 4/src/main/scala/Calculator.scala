@@ -35,9 +35,17 @@ class Calculator {
       }
     }
 
-    var result = getResult(numbers, operations)
+    val result = getResult(numbers, operations)
     println("*************************")
-    println(result)
+
+    val resultInt = result.toInt
+
+    if (resultInt==result) {
+      println(resultInt)
+    }
+    else {
+      println(result)
+    }
 
     //    for (n <- numbers) print(n + " ")
     //    println()
