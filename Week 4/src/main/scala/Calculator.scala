@@ -29,10 +29,10 @@ class Calculator {
         number += expression.charAt(i)
         hasDot = true
       }
-      else {
-        println("Your input is not correct!")
-        System.exit(0)
-      }
+//      else {
+//        println("Your input is not correct!")
+//        System.exit(0)
+//      }
     }
 
     val result = getResult(numbers, operations)
@@ -58,10 +58,13 @@ class Calculator {
     var expression: String = ""
 
     while (!input.contains('=')) {
-      input = StdIn.readLine();
+      input = StdIn.readLine()
+      if(input.contains('=') && input.indexOf('=')!=input.length-1) {
+        input = input.slice(0, input.indexOf('=')+1);
+      }
       expression += input.replaceAll("\\s", "")
     }
-
+//    println(expression)
     return expression
   }
 
