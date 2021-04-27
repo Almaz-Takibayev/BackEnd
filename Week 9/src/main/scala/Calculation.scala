@@ -1,0 +1,1 @@
+case class Calculation(expression: String, result: String)

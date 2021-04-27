@@ -1,0 +1,37 @@
+[debug] Packaging C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\week-9_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\application.conf
+[debug] 	Boot$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\Boot$.class
+[debug] 	Boot$delayedInit$body.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\Boot$delayedInit$body.class
+[debug] 	Boot.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\Boot.class
+[debug] 	Calculation$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\Calculation$.class
+[debug] 	Calculation.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\Calculation.class
+[debug] 	CalculatorRepository.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\CalculatorRepository.class
+[debug] 	ICalculatorRepository.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\ICalculatorRepository.class
+[debug] 	logback.xml
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\logback.xml
+[debug] 	MyRouter$anon$importedEncoder$macro$19$1$$anon$1.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyRouter$anon$importedEncoder$macro$19$1$$anon$1.class
+[debug] 	MyRouter$anon$importedEncoder$macro$19$1$$anon$2.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyRouter$anon$importedEncoder$macro$19$1$$anon$2.class
+[debug] 	MyRouter$anon$importedEncoder$macro$19$1$anon$macro$17$1.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyRouter$anon$importedEncoder$macro$19$1$anon$macro$17$1.class
+[debug] 	MyRouter$anon$importedEncoder$macro$19$1.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyRouter$anon$importedEncoder$macro$19$1.class
+[debug] 	MyRouter.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyRouter.class
+[debug] 	MyServer$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyServer$.class
+[debug] 	MyServer.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\MyServer.class
+[debug] 	Router.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes\Router.class
+[debug] Done packaging.

@@ -1,0 +1,8 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] 	CalculatorRepository.class
+[debug] We backup class files:
+[debug] 	CalculatorRepository.class
+[debug] Registering generated classes:
+[debug] 	CalculatorRepository.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\Lenovo\Desktop\BackEnd\Week 9\target\scala-2.12\classes.bak

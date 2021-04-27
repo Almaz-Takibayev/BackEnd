@@ -30,13 +30,19 @@ class Calculator {
         hasDot = true
       }
 //      else {
-//        println("Your input is not correct!")
-//        System.exit(0)
-//      }
+      ////        println("Your input is not correct!")
+      ////        System.exit(0)
+      ////      }
     }
 
     val result = getResult(numbers, operations)
     println("*************************")
+
+//    for (i <- 0 to numbers.length - 1) {
+//      print(numbers(i).toString + ' ' + operations(i))
+//    }
+
+//    print('=')
 
     val resultInt = result.toInt
 
@@ -65,6 +71,12 @@ class Calculator {
       expression += input.replaceAll("\\s", "")
     }
 //    println(expression)
+
+//    if (isOperation(expression(0)) || isElementOfNumber(expression(0))) {
+//      println("Incorrect input");
+//      System.exit(0);
+//    }
+
     return expression
   }
 
