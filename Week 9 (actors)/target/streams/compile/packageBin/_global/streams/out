@@ -1,0 +1,49 @@
+[debug] Packaging C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\week-9-actors-_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\application.conf
+[debug] 	Calculator$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Calculator$.class
+[debug] 	Calculator$Expression$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Calculator$Expression$.class
+[debug] 	Calculator$Expression.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Calculator$Expression.class
+[debug] 	Calculator$Result$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Calculator$Result$.class
+[debug] 	Calculator$Result.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Calculator$Result.class
+[debug] 	Calculator.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Calculator.class
+[debug] 	CalculatorApp.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorApp.class
+[debug] 	CalculatorBot$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorBot$.class
+[debug] 	CalculatorBot.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorBot.class
+[debug] 	CalculatorRepository$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorRepository$.class
+[debug] 	CalculatorRepository$Calculate$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorRepository$Calculate$.class
+[debug] 	CalculatorRepository$Calculate.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorRepository$Calculate.class
+[debug] 	CalculatorRepository$Command.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorRepository$Command.class
+[debug] 	CalculatorRepository.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\CalculatorRepository.class
+[debug] 	logback.xml
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\logback.xml
+[debug] 	Main$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Main$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Main$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Main.class
+[debug] 	MyRouter.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\MyRouter.class
+[debug] 	MyServer$.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\MyServer$.class
+[debug] 	MyServer.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\MyServer.class
+[debug] 	Router.class
+[debug] 	  C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes\Router.class
+[debug] Done packaging.

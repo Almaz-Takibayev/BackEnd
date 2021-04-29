@@ -1,0 +1,16 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 7 Scala sources to C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes ...
+[error] C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\src\main\scala\CalculatorBot.scala:11:19: ambiguous reference to overloaded definition,
+[error] both method info in trait Logger of type (x$1: String, x$2: Object*)Unit
+[error] and  method info in trait Logger of type (x$1: String, x$2: Any, x$3: Any)Unit
+[error] match argument types (String,String,String)
+[error]       context.log.info("Result of expression {} is {}", message.expression.substring(0, message.expression.length-1), message.result)
+[error]                   ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed 28.04.2021 23:25:46
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

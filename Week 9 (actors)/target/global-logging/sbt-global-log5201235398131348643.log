@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_271)
+[debug]       Load.loadUnit: plugins took 100.1062ms
+[debug]       Load.loadUnit: defsScala took 0.3003ms
+[debug] [Loading] Scanning directory C:\Users\Lenovo\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Lenovo\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.1461 ms
+[debug]           Load.resolveProject(global-plugins) took 42.4626ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Lenovo\.sbt\1.0\plugins, plugins: List(<none>))) took 89.3739ms
+[debug] [Loading] Done in C:\Users\Lenovo\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 107.8383ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3214ms
+[debug]     Load.loadUnit(file:/C:/Users/Lenovo/.sbt/1.0/plugins/, ...) took 216.7537ms
+[debug]   Load.apply: load took 374.9254ms
+[debug]   Load.apply: resolveProjects took 5.9545ms
+[debug]   Load.apply: finalTransforms took 58.0387ms
+[debug]   Load.apply: config.delegates took 10.4217ms
+[debug]   Load.apply: Def.make(settings)... took 2571.8101ms
+[debug]   Load.apply: structureIndex took 125.3065ms
+[debug]   Load.apply: mkStreams took 2.0037ms
+[info] loading global plugins from C:\Users\Lenovo\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5082.3406ms
+[debug]           Load.loadUnit: plugins took 35.3387ms
+[debug]           Load.loadUnit: defsScala took 0.0054ms
+[debug] [Loading] Scanning directory C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\project
+[debug]             Load.loadUnit: mkEval took 8.3684ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.766 ms
+[info] loading settings for project week-9-actors--build from idea.sbt ...
+[debug]               Load.resolveProject(week-9-actors--build) took 4.7399ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id week-9-actors--build, base: C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\project, plugins: List(<none>))) took 8.4316ms
+[debug] [Loading] Done in C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\project, returning: (week-9-actors--build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2486.278ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.4532ms
+[debug]         Load.loadUnit(file:/C:/Users/Lenovo/Desktop/BackEnd/Week%209%20(actors)/project/, ...) took 2529.4345ms
+[debug]       Load.apply: load took 2531.5545ms
+[debug]       Load.apply: resolveProjects took 0.161ms
+[debug]       Load.apply: finalTransforms took 13.3674ms
+[debug]       Load.apply: config.delegates took 0.417ms
+[debug]       Load.apply: Def.make(settings)... took 104.2321ms
+[debug]       Load.apply: structureIndex took 38.266ms
+[debug]       Load.apply: mkStreams took 0.0025ms
+[info] loading project definition from C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4360.1644ms
+[debug]     Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)
+[debug]       Load.loadUnit: mkEval took 0.3163ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors), returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.1695 ms
+[info] loading settings for project week-9-actors- from build.sbt ...
+[debug]         Load.resolveProject(week-9-actors-) took 35.1729ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id week-9-actors-, base: C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors), plugins: List(<none>))) took 38.7023ms
+[debug] [Loading] Done in C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors), returning: (week-9-actors-)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1639.194ms
+[debug]     Load.loadUnit: cleanEvalClasses took 18.7979ms
+[debug]   Load.loadUnit(file:/C:/Users/Lenovo/Desktop/BackEnd/Week%209%20(actors)/, ...) took 6018.8786ms
+[debug] Load.apply: load took 6021.9879ms
+[debug] Load.apply: resolveProjects took 0.1345ms
+[debug] Load.apply: finalTransforms took 22.0662ms
+[debug] Load.apply: config.delegates took 0.3319ms
+[debug] Load.apply: Def.make(settings)... took 89.0997ms
+[debug] Load.apply: structureIndex took 25.042ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to Week 9 (actors) (in build file:/C:/Users/Lenovo/Desktop/BackEnd/Week%209%20(actors)/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51362 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51362, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Week 9 (actors) (in build file:/C:/Users/Lenovo/Desktop/BackEnd/Week%209%20(actors)/)
+[debug] > Exec(idea-shell, None, None)
