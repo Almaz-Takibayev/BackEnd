@@ -7,7 +7,7 @@ import scala.util.{Failure, Success}
 
 object  MyServer{
   val host = "0.0.0.0"
-  val port = 9000
+  val port = 9002
   def startHttpServer(routes: Route)(implicit system: ActorSystem[_],  ex:ExecutionContext): Unit = {
     val futureBinding = Http().newServerAt(host, port).bind(routes)
     futureBinding.onComplete {

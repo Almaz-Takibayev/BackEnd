@@ -2,27 +2,27 @@
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 21 products, 7 sources, 8 libraries
 [debug] current source = Set(${BASE}/src/main/scala/CalculatorApp.scala, ${BASE}/src/main/scala/CalculatorBot.scala, ${BASE}/src/main/scala/Calculator.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/MyServer.scala, ${BASE}/src/main/scala/MyRouter.scala, ${BASE}/src/main/scala/CalculatorRepository.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/CalculatorApp.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/classes/CalculatorApp.class),Set(),API Changes: Set())
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/MyServer.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/classes/MyServer$.class),Set(),API Changes: Set())
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(${BASE}/src/main/scala/CalculatorApp.scala)
-[debug] Invalidated products: Set(${BASE}/target/scala-2.12/classes/CalculatorApp.class)
+[debug] 	modified: Set(${BASE}/src/main/scala/MyServer.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.12/classes/MyServer$.class)
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(CalculatorApp)
+[debug] Initial directly invalidated classes: Set(MyServer)
 [debug] Sources indirectly invalidated by:
-[debug] 	product: Set(${BASE}/src/main/scala/CalculatorApp.scala)
+[debug] 	product: Set(${BASE}/src/main/scala/MyServer.scala)
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated classes: Set(CalculatorApp)
-[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/CalculatorApp.scala)
-[debug] Initial set of included nodes: CalculatorApp
+[debug] All initially invalidated classes: Set(MyServer)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/MyServer.scala)
+[debug] Initial set of included nodes: MyServer
 [debug] compilation cycle 1
 [info] compiling 1 Scala source to C:\Users\Lenovo\Desktop\BackEnd\Week 9 (actors)\target\scala-2.12\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.4:compile for Scala 2.12.6
-[debug] [zinc] Running cached compiler fbc8926 for Scala compiler version 2.12.6
+[debug] [zinc] Running cached compiler 630adc90 for Scala compiler version 2.12.6
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes;C:\Users\Lenovo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.6\scala-library-2.12.6.jar
@@ -34,5 +34,5 @@
 [debug] Final step, transitive dependencies:
 [debug] 	Set()
 [debug] No classes were invalidated.
-[debug] Scala compilation took 5.7502584 s
+[debug] Scala compilation took 5.4640218 s
 [info] done compiling
